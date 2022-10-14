@@ -1,9 +1,12 @@
-import './App.css';
+// import './App.css';
+import CreateAccount from './Component/Pages/Createaccount/CreateAccount';
+import FAQ from './Component/Pages/FAQ/FAQ';
 
 function App() {
   return (
     <div className="App">
-      Hello Alphadevs
+      <FAQ />
+      {/* <CreateAccount/> */}
     </div>
   );
 }
