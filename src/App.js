@@ -1,14 +1,24 @@
 // import './App.css';
-import CreateAccount from './Component/Pages/Createaccount/CreateAccount';
-import FAQ from './Component/Pages/FAQ/FAQ';
+// import CreateAccount from './Component/Pages/Createaccount/CreateAccount';
+
+// import './Component/Footer'
+// import './style.css'
+
+import { Contact } from './Component/Pages/Contact/Contact'
+
+// import Footer from './Component/Footer'
+// import Navbar from './Component/Navbar'
 
 function App() {
-  return (
-    <div className="App">
-      <FAQ />
-      {/* <CreateAccount/> */}
-    </div>
-  );
+  return <Contact />
 }
+// <div className="App">
+//   <Navbar />
 
-export default App;
+//   <Footer />
+
+/* <CreateAccount/> */
+
+// </div>
+
+export default App
