@@ -5,8 +5,8 @@ import FAQ from './Component/Pages/FAQ/FAQ';
 function App() {
   return (
     <div className="App">
-      <FAQ />
-      {/* <CreateAccount/> */}
+      {/* <FAQ /> */}
+      <CreateAccount/>
     </div>
   );
 }
