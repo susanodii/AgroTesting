@@ -10,7 +10,9 @@ import { Contact } from './Component/Pages/Contact/Contact'
 // import Navbar from './Component/Navbar'
 
 function App() {
+
   return <Contact />
+
 }
 // <div className="App">
 //   <Navbar />
